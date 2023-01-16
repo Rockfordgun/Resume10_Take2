@@ -1,0 +1,6 @@
+@if $enable-transitions {
+    @keyframes progress-bar-stripes {
+      25% { background-position-x: $progress-height; }
+    }
+  }
+  
