@@ -5,15 +5,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 5em;
+    font-weight: 900;
 }
 
 h2 {
@@ -25,26 +27,83 @@ h2 {
 
 h3 {
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 h4 {
+
     font-size: 1.1rem;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 h5 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h6 {
     font-size: 1rem;
     font-weight: 500;
 }
 
-h6 {
-    font-size: 0.8rem;
-    font-weight: 500;
+
+/*Navbar*/
+.navbar {
+    top: 0;
+    left: 0;
 }
 
+.bg-light .navbar-nav .nav-link {
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0 10px;
+    color: black;
+    transition:  0.5s ease;
+}
 
+.bg-light .navbar-toggler {
+    border: 0;
+    outline: 0;
+}
 
+.bg-light .navbar-nav .nav-link:hover,
+.bg-light .navbar-nav .nav-link.active {
+
+    color: #075982;
+    text-decoration: underline;
+
+}
+
+.socialIconsF:hover,
+.socialIconsF.active {
+    color: black;
+    transition: 0.5s ease;
+}
+
+.socialIconsF:hover,
+.socialIconsF.active {
+    color: #075982;
+}
+.socialIconsI:hover,
+.socialIconsI.active {
+    color: black;
+    transition: 0.5s ease;
+}
+
+.socialIconsI:hover,
+.socialIconsI.active {
+    color: #075982;
+}
+.socialIconsL:hover,
+.socialIconsL.active {
+    color: black;
+    transition: 0.5s ease;
+}
+
+.socialIconsL:hover,
+.socialIconsL.active {
+    color: #075982;
+}
 
 .navLogo {
     width: 15em;
@@ -52,10 +111,25 @@ h6 {
 
 }
 
+
+
+/*end*/
+
+.mainText {
+    padding-top: 10em;
+}
+
+.animationtest {
+    font-size: 2em;
+    font-weight: 200;
+}
+
+
+
+
 .card{
     border: 0%;
 }
-
 
 
 .card-title {
@@ -63,11 +137,43 @@ h6 {
  
 }
 
+.modalBTN {
+    border: none;
+    height: 2rem;
+}
+
 .btn {
     border-radius: 0%;
-    width: 15rem;
+    width: 20rem;
     background-color: #075982;
     color: white;
     font-weight: 900;
+}
+
+.progress {
+        height: 2rem;
+        background-color: white;
+}
+
+.adobePhoto {
+    background-color: #075982;
+}
+
+.square {
+    color: #075982;
+}
+
+
+.socialIcons {
+    margin-right: 5em;
+}
+
+.footerCbtn {
+    width: 12em;
+}
+
+.number {
+    padding: 15px;
+
 }
 
