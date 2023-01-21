@@ -10,8 +10,15 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+
     
 }
+
+/*Navbar Fixed Top (FIX) */
+:target{
+    padding-top:100px; /* = to height of navbar */
+    margin-top:-100px;
+  }
 
 h1 {
     font-size: 5em;
@@ -137,17 +144,48 @@ h6 {
  
 }
 
+.servicesCard {
+    animation: fadeInRight 2s ease-in-out;
+
+}
+
+.aboutMe{
+    animation: fadeInUp 2s ease-in-out;
+}
+
+.portfolio {
+    animation: fadeInRight 2s ease-in-out;
+
+}
+
 .modalBTN {
     border: none;
     height: 2rem;
 }
 
+#skills {
+    animation: fadeInUp 2s ease-in-out;
+  
+}
 .btn {
     border-radius: 0%;
     width: 20rem;
     background-color: #075982;
     color: white;
     font-weight: 900;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #075982;
+    border: none;
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #757575;
+    border: none;
 }
 
 .progress {
@@ -163,7 +201,10 @@ h6 {
     color: #075982;
 }
 
+.expText {
+    animation: fadeInRight 2s ease-in-out;
 
+}
 .socialIcons {
     margin-right: 5em;
 }
@@ -177,3 +218,39 @@ h6 {
 
 }
 
+.footerLogo {
+    width: 10rem;
+}
+
+/*Animations*/
+
+@keyframes fadeInUp{
+    0% { opacity: 0;
+  -webkit-transform: translate3d(0,15%,0);
+  transform: translate3d(0,15%,0); }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+  }
+
+@keyframes fadeInRight{
+    0% { opacity: 0;
+  -webkit-transform: translate3d(5%,0,0);
+  transform: translate3d(5%,0,0); }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  @keyframes fader { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }

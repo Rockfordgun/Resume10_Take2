@@ -14,8 +14,11 @@
     <link rel="stylesheet" href="./css/style.css">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/c9e1ae9f10.js" crossorigin="anonymous"></script>
+    <!--Favi Icon-->
+    <link rel="icon" type="image/x-icon" href="./img/Favi.png">
 
     <title>Anton Marais Resume</title>
+    
 </head>
 <body>
 <!--Navigation START-->
@@ -37,7 +40,7 @@
                 <a class="nav-link" href="#about">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#portfolioTop">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#skills">Skills</a>
@@ -47,10 +50,11 @@
               </li>
             </ul>
 
-            <div class="row me-auto">
-                <div class="col socialIconsF"><a class="nav-link" href="www.facebook.com"><i class="fa-lg fa-brands fa-facebook-f"></i></a></div>
-                <div class="col socialIconsI"><a class="nav-link" href="www.facebook.com"><i class="fa-lg fa-brands fa-instagram"></i></a></div>
-                <div class="col socialIconsL"><a class="nav-link" href="www.facebook.com"><i class="fa-lg fa-brands fa-linkedin-in"></i></a></div>
+            <div class="row me-auto col-6 col-md-3 col-lg-2 ">
+                <div class="col socialIconsF"><a class="nav-link" href="https://www.facebook.com/studio81portfolio" target="_blank"><i class="fa-lg fa-brands fa-facebook-f"></i></a></div>
+                <div class="col socialIconsI"><a class="nav-link" href="https://www.instagram.com/" target="_blank"><i class="fa-lg fa-brands fa-instagram"></i></a></div>
+                <div class="col socialIconsL"><a class="nav-link" href="https://www.linkedin.com/in/anton-marais-3b06a1128/" target="_blank"><i class="fa-lg fa-brands fa-linkedin-in"></i></a></div>
+                <div class="col socialIconsL"><a class="nav-link" href="https://github.com/Rockfordgun" target="_blank"><i class="fa-lg fa-brands fa-github"></i></a></div>
             </div>
 
           </div>
@@ -97,10 +101,10 @@
 
 <!--Bootstrap Cards-->
 <section id="services">
-<div class="row row-cols-1 row-cols-md-3 g-4 container mx-auto pt-5">
+<div class="row row-cols-1 row-cols-md-3 g-4 container mx-auto pt-5 servicesCard">
  
     
-    <div class="col">
+    <div class="col ">
       <div class="card border-0">
 
         <div class="card-body">
@@ -133,11 +137,17 @@
 
   </div>
 
-  <div class="row py-5 container mx-auto">
+  <div class="row py-5 container mx-auto" id="about">
 
-    <div class="col-5"><img src="./img/aboutMeCell.jpg" alt=""> </div> 
+    <div class="col-3 col-md-2 col-lg-5"> 
+      <picture>
+      <source media="(min-width: 900px)" srcset="./img/aboutMeCell.jpg">
+      <source media="(min-width: 700px)" srcset="./img/bannerTablet.jpg">
+      <source media="(min-width: 465px)" srcset="img_car.jpg">
+      <img src="./img/aboutMeCell.jpg">
+    </picture> </div> 
     
-    <div class="col pt-5"> 
+    <div class="col-12 col-md-12 col-lg-6 pt-5 aboutMe"> 
         <h2>About Me</h2>
         <p>I worked for a Car magazine designing covers, features, layouts, and adverts for different products. I also worked for a medical company designing all their products packaging, labels, printable banners, and adverts. I Specialize in graphic design with Adobe Photoshop, Illustrator, Corel Draw, and Indesign. For the car magazine, I retouched most of the car photos in photoshop and handled the layout in InDesign. Corel and illustrator is my go-to program for packaging design and I also use them to make stickers and car wraps.</p>
 
@@ -190,8 +200,8 @@
 <!--Cards-->
 
 <!--Bootstrap Grid-->
-<section id="portfolio">
-<div class="container text-center">
+<section id="portfolioTop">
+<div class="container text-center portfolio">
     <h2>Latest Portfolio</h2>
     <p>Some of my work to my clients ranging from business cards, brochure & banners.</p>
 </div>
@@ -396,7 +406,7 @@
 
   <div class="col-12 col-lg-4 d-none d-lg-block"><img src="./img/shoeVector.jpg" alt=""> </div> 
   
-  <div class="col pt-5"> 
+  <div class="col pt-5 expText"> 
       <h2>Years of Experiences in Design & Development.</h2>
       <p>My knowledge of design and layouts come a far way. Design as a whole has always been a passion of mine. Wheter it is web or graphics. I have fulll knowlesge of Adobe suite. My knowledge for web design and coding is also growing as I am studying for a full stack developer at Codespace.</p>
 
@@ -425,9 +435,9 @@
 <!--Experience END-->
 
 <!--Testimonial Start-->
-<section id="testimonial">
+<section id="testimonial ">
 
-<div class="container">
+<div class="container py-5">
   <h2 class="">My Client Feedback</h2>
   <p class="Pboldnc">My design skills is my core business! The proof is in what my clients have to say.</p>
   </div>
@@ -603,16 +613,16 @@
   
       <!-- Right -->
       <div class="socialIcons">
-        <a href="" class="me-4 text-reset">
+        <a href="https://www.facebook.com/studio81portfolio/" class="me-4 text-reset" target="_blank">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="" class="me-4 text-reset">
+        <a href="https://www.instagram.com/" class="me-4 text-reset" target="_blank">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="" class="me-4 text-reset">
+        <a href="https://www.linkedin.com/in/anton-marais-3b06a1128/" class="me-4 text-reset" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="" class="me-4 text-reset">
+        <a href="https://github.com/Rockfordgun" class="me-4 text-reset" target="_blank">
           <i class="fab fa-github"></i>
         </a>
       </div>
@@ -628,7 +638,7 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <img src="./img/studioLogo.png" alt="" class="navLogo">
+           <img src="./img/studioLogo.png" alt="" class="footerLogo">
            
             <p class="pt-2">
               Here you can use rows and columns to organize your footer content. Lorem ipsum
